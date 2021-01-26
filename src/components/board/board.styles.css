@@ -1,0 +1,11 @@
+.board {
+  margin-left: 40%;
+  margin-top: 200px;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.turn {
+  font-size: 16px;
+}
