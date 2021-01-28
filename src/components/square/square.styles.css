@@ -1,13 +1,74 @@
 .square {
   background-color: white;
-  border: 1px solid black;
-  height: 50px;
-  width: 50px;
+  border: none;
+  height: 100px;
+  width: 100px;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .square:focus {
   outline: none;
+}
+
+.top-left-square {
+  background-color: #4b0082;
+  border-right: 6px solid #4169e1;
+  border-bottom: 6px solid #4169e1;
+}
+
+.top-middle-square {
+  background-color: #4b0082;
+  border-bottom: 6px solid #4169e1;
+}
+
+.top-right-square {
+  background-color: #4b0082;
+  border-bottom: 6px solid #4169e1;
+  border-left: 6px solid #4169e1;
+}
+
+.middle-left-square {
+  background-color: #4b0082;
+  border-right: 6px solid #4169e1;
+}
+
+.middle-square {
+  background-color: #4b0082;
+  border: none;
+}
+
+.middle-right-square {
+  background-color: #4b0082;
+  border-left: 6px solid #4169e1;
+}
+
+.bottom-left-square {
+  background-color: #4b0082;
+  border-top: 6px solid #4169e1;
+  border-right: 6px solid #4169e1;
+}
+
+.bottom-middle-square {
+  background-color: #4b0082;
+  border-top: 6px solid #4169e1;
+}
+
+.bottom-right-square {
+  background-color: #4b0082;
+  border-top: 6px solid #4169e1;
+  border-left: 6px solid #4169e1;
+}
+
+i {
+  font-size: 50px;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: greenyellow;
 }

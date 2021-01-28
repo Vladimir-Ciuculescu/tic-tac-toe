@@ -1,11 +1,94 @@
 .board {
   margin-left: 40%;
-  margin-top: 200px;
-  clear: both;
-  content: "";
+  margin-top: 100px;
   display: table;
 }
 
 .turn {
   font-size: 16px;
+  text-align: center;
+
+  margin-bottom: 20%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: yellow;
+}
+
+.top-left-square {
+  border-right: 10px solid black;
+}
+
+.vertical-line {
+  transform: rotate(90deg);
+  border: 5px solid red;
+  color: red;
+  pointer-events: none;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.horizontal-line {
+  border: 5px solid red;
+  color: red;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.hr1 {
+  position: relative;
+  top: 67px;
+}
+
+.hr2 {
+  position: relative;
+  top: 170px;
+}
+
+.hr3 {
+  position: relative;
+  top: 273px;
+}
+
+.vr1 {
+  position: relative;
+  left: -102px;
+}
+
+.vr2 {
+  position: relative;
+  left: 100px;
+}
+
+.vr3 {
+  position: relative;
+}
+
+.vertical-line {
+  position: relative;
+  top: 170px;
+}
+
+.dl1 {
+  position: relative;
+  transform: rotate(45deg);
+  top: 170px;
+  color: red;
+  border: red solid 5px;
+  opacity: 1;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.dl2 {
+  position: relative;
+  transform: rotate(-45deg);
+  top: 170px;
+  color: red;
+  border: red solid 5px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.none {
+  display: none;
 }
