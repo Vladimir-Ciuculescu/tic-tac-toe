@@ -99,6 +99,17 @@ class Board extends React.Component {
         }
         
      }
+
+    ResetGame() {
+        
+        var squares = Array(9).fill(null);
+
+        this.setState({
+            squares:squares
+        })
+
+
+    }
     
     
 
@@ -180,7 +191,14 @@ class Board extends React.Component {
                 <Square className = "bottom-middle-square" value={this.state.squares[8]}onClick={() => this.handleClick(8)}></Square>
                 <Square className = "bottom-right-square" value={this.state.squares[9]}onClick={() => this.handleClick(9)}></Square>
                 </div>
+
+                <div className = "play-again">
+                    <button onClick = {() => this.ResetGame()} className = "button-play-again">Play again</button>
+                </div>
+
             </div>
+
+            
             
 
         )
