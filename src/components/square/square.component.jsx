@@ -17,7 +17,7 @@ const Square = (props) => {
     return (
 
         
-        <button className={classes}  onClick={() => props.onClick()}>
+        <button className={classes} id='square'  onClick={() => props.onClick()}>
             <i className = {icon}></i>
         </button>
     
